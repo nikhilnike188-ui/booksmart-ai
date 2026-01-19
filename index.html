@@ -1,42 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BookSmart AI</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            color: #2c3e50;
-        }
-        p {
-            color: #34495e;
-            font-size: 18px;
-        }
-        button {
-            background-color: #27ae60;
-            color: white;
-            padding: 15px 30px;
-            border: none;
-            border-radius: 8px;
-            font-size: 16px;
-            cursor: pointer;
-            margin-top: 20px;
-        }
-        button:hover {
-            background-color: #2ecc71;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookSmart AI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    p {
+      color: #34495e;
+      font-size: 18px;
+      margin: 10px 0 30px 0;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    button {
+      background-color: #27ae60;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #2ecc71;
+    }
+    a {
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <h1>✈️ BookSmart AI</h1>
-    <p>Smart way to book flights & hotels using AI.</p>
-    <p>Chat, compare prices, and book faster.</p>
-    <button onclick="alert('Booking feature coming soon!')">Start Booking</button>
+  <h1>✈️ BookSmart AI</h1>
+  <p>Smart way to book flights & hotels using AI.</p>
+  <p>Chat, compare prices, and book faster.</p>
+
+  <div class="button-container">
+    <!-- Flights Button -->
+    <a href="YOUR_FLIGHT_AFFILIATE_LINK" target="_blank">
+      <button>Book Flights</button>
+    </a>
+
+    <!-- Hotels Button -->
+    <a href="YOUR_HOTEL_AFFILIATE_LINK" target="_blank">
+      <button>Book Hotels</button>
+    </a>
+
+    <!-- Deals / Start Booking -->
+    <a href="YOUR_DEALS_AFFILIATE_LINK" target="_blank">
+      <button>Start Booking</button>
+    </a>
+  </div>
+
+  <p style="margin-top:50px; font-size:14px; color:#777;">
+    © 2026 BookSmart AI. All rights reserved.
+  </p>
 </body>
 </html>
