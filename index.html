@@ -1,92 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BookSmart AI</title>
-
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX');
-  </script>
-
-  <!-- Travelpayouts verification code -->
-  <script data-noptimize="1" data-cfasync="false" data-wpfc-render="false">
-    (function () {
-        var script = document.createElement("script");
-        script.async = 1;
-        script.src = 'https://tpembars.com/NDkwMzM3.js?t=490337';
-        document.head.appendChild(script);
-    })();
-  </script>
-
+  <title>BookSmart AI Weekly Deals</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      color: #2c3e50;
-    }
-    p {
-      color: #34495e;
-      font-size: 18px;
-      margin: 10px 0 30px 0;
-    }
-    .button-container {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-    button {
-      background-color: #27ae60;
-      color: white;
-      padding: 15px 30px;
-      border: none;
-      border-radius: 8px;
-      font-size: 16px;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-    button:hover {
-      background-color: #2ecc71;
-    }
-    a {
-      text-decoration: none;
-    }
+    body { font-family: Arial, sans-serif; background:#f4f4f4; margin:0; padding:0; }
+    .container { max-width:600px; margin:20px auto; background:white; padding:20px; border-radius:10px; }
+    h1 { color:#27ae60; text-align:center; }
+    h2 { color:#2c3e50; margin-top:20px; }
+    p { color:#555; }
+    a.button { display:inline-block; padding:12px 25px; margin:10px 0; background:#e67e22; color:white; text-decoration:none; border-radius:8px; }
+    a.button:hover { background:#d35400; }
+    .deal { border-bottom:1px solid #ddd; padding:10px 0; }
   </style>
 </head>
 <body>
-  <h1>✈️ BookSmart AI</h1>
-  <p>Smart way to book flights & hotels using AI.</p>
-  <p>Chat, compare prices, and book faster.</p>
+  <div class="container">
+    <h1>✈️ BookSmart AI Weekly Travel Deals</h1>
+    <p>Hi [Subscriber Name],</p>
+    <p>Check out the hottest flight and hotel deals for this week! Save money and book your dream trips faster.</p>
 
-  <div class="button-container">
-    <!-- Flights Button -->
-    <a href="https://www.travelpayouts.com/flights?aff_id=123456" target="_blank">
-      <button>Book Flights</button>
-    </a>
+    <!-- Flight Deals -->
+    <h2>🔥 Top Flight Deals</h2>
+    <div class="deal">
+      <strong>New York → Paris</strong><br>
+      From <strong>$499</strong> on <em>15 Feb 2026</em><br>
+      <a href="https://www.travelpayouts.com/flights?aff_id=123456&origin=NYC&destination=PAR" class="button" target="_blank">Book Flight</a>
+    </div>
+    <div class="deal">
+      <strong>London → Tokyo</strong><br>
+      From <strong>$620</strong> on <em>20 Feb 2026</em><br>
+      <a href="https://www.travelpayouts.com/flights?aff_id=123456&origin=LON&destination=TYO" class="button" target="_blank">Book Flight</a>
+    </div>
 
-    <!-- Hotels Button -->
-    <a href="https://www.booking.com/index.html?aid=123456" target="_blank">
-      <button>Book Hotels</button>
-    </a>
+    <!-- Hotel Deals -->
+    <h2>🏨 Hot Hotel Deals</h2>
+    <div class="deal">
+      <strong>Paris Hotels</strong><br>
+      Rooms from <strong>$120/night</strong><br>
+      <a href="https://www.booking.com/index.html?aid=123456&city=Paris" class="button" target="_blank">Book Hotel</a>
+    </div>
+    <div class="deal">
+      <strong>Tokyo Hotels</strong><br>
+      Rooms from <strong>$90/night</strong><br>
+      <a href="https://www.booking.com/index.html?aid=123456&city=Tokyo" class="button" target="_blank">Book Hotel</a>
+    </div>
 
-    <!-- Deals / Start Booking -->
-    <a href="https://www.travelpayouts.com/deals?aff_id=123456" target="_blank">
-      <button>Start Booking</button>
-    </a>
+    <p>For more deals, visit <a href="https://mellifluous-fox-334cf1.netlify.app/" target="_blank">BookSmart AI</a> now!</p>
+
+    <p>Happy Travels,<br>✈️ BookSmart AI Team</p>
+    <p style="font-size:12px; color:#999;">You are receiving this email because you subscribed to BookSmart AI travel deals. <a href="#">Unsubscribe</a></p>
   </div>
-
-  <p style="margin-top:50px; font-size:14px; color:#777;">
-    © 2026 BookSmart AI. All rights reserved.
-  </p>
 </body>
 </html>
